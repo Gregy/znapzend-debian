@@ -3,7 +3,7 @@ Maintainer: Petr Gregor <gregy@gregy.cz>
 Section: misc
 Priority: optional
 Standards-Version: 3.9.8
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), dh-systemd (>= 1.5)
 
 Package: znapzend
 Architecture: any
