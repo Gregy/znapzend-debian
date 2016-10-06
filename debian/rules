@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_build:
+	$(MAKE)
+
+override_dh_auto_test:
+	echo ' skip tests'
+override_dh_strip_nondeterminism:
+	echo ' skip strip nondeterinism'

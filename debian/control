@@ -1,0 +1,15 @@
+Source: znapzend
+Maintainer: Petr Gregor <gregy@gregy.cz>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9)
+
+Package: znapzend
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, perl 
+Description: High performance open source ZFS backup with mbuffer and ssh support
+ Znapzend is leveraging ZFS and ssh creating flexible backup solution with
+ features including mbuffer support, fileset-based configuration,
+ flexible backup locations, progressive thining, online backup scheduler
+ and flexible snapshot naming.
