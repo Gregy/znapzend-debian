@@ -1,3 +1,9 @@
+Testing ZnapZend Debian packages
+===============
+
+You can download prebuilt package from 'releases' section of this repository. Please report back with problems.
+
+
 Creating ZnapZend Debian packages
 ===============
 
