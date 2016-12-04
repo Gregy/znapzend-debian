@@ -1,3 +1,9 @@
+znapzend (0.16.0-1) UNRELEASED; urgency=medium
+
+  * Release v0.16.0
+
+ -- morph027 <morphsen@gmx.com>  Sat, 03 Dec 2016 17:00:00 +0200
+
 znapzend (0.15.7-1) UNRELEASED; urgency=medium
 
   * Initial release.
