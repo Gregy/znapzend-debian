@@ -9,7 +9,7 @@ Creating ZnapZend Debian packages
 
 Install required packages:
 ```sh
-apt install git devscripts dh-systemd
+apt install git devscripts dh-systemd unzip
 ```
 
 Build debs:
