@@ -17,7 +17,7 @@ Build debs:
 ```sh
 git clone https://github.com/Gregy/znapzend-debian.git
 cd znapzend-debian
-git clone -b v0.16.0 https://github.com/oetiker/znapzend
+git clone -b v0.17.0 https://github.com/oetiker/znapzend
 cp -r debian/ znapzend
 cd znapzend
 debuild -us -uc

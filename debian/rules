@@ -5,6 +5,8 @@
 override_dh_auto_build:
 	$(MAKE)
 
+override_dh_installinit:
+	echo 'not installing init script, relying on systemd'
 override_dh_auto_test:
 	echo ' skip tests'
 override_dh_strip_nondeterminism:
