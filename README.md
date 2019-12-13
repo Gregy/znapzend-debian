@@ -20,7 +20,7 @@ cd znapzend-debian
 git clone -b v0.19.0 https://github.com/oetiker/znapzend
 cp -r debian/ znapzend
 cd znapzend
-debuild -us -uc
+debuild --no-tgz-check -us -uc
 ```
 
 Resulting packages are in parent directory
