@@ -24,7 +24,11 @@ debuild --no-tgz-check -us -uc
 ```
 
 Resulting packages are in parent directory
+```sh
 cd ..
+```
 
 Install:
+```sh
 apt install ./znapzend_0.21.0-1_amd64.deb
+```
