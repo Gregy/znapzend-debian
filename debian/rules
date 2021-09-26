@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 %:
-	dh $@ --with=systemd --with autoreconf
+	dh $@ --with autoreconf --no-parallel
 
 override_dh_installinit:
 	echo 'not installing init script, relying on systemd'

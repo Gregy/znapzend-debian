@@ -9,7 +9,7 @@ Creating ZnapZend Debian packages
 
 Install required packages:
 ```sh
-apt install git devscripts dh-systemd unzip build-essential
+apt install git devscripts unzip build-essential
 ```
 
 Build debs:
@@ -28,7 +28,13 @@ Resulting packages are in parent directory
 cd ..
 ```
 
+Build debs with docker:
+
+```sh
+./build.sh
+```
+
 Install:
 ```sh
-apt install ./znapzend_0.21.0-1_amd64.deb
+apt install ./znapzend_*.deb
 ```

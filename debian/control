@@ -2,8 +2,8 @@ Source: znapzend
 Maintainer: Petr Gregor <gregy@gregy.cz>
 Section: misc
 Priority: optional
-Standards-Version: 3.9.8
-Build-Depends: debhelper (>= 9), dh-systemd (>= 1.5)
+Standards-Version: 4.5.1
+Build-Depends: debhelper (>= 9.20160709), debhelper-compat (= 13)
 
 Package: znapzend
 Architecture: any
