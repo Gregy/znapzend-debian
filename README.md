@@ -9,7 +9,7 @@ Creating ZnapZend Debian packages
 
 Install required packages:
 ```sh
-apt install git devscripts unzip build-essential
+apt install git debhelper devscripts unzip build-essential
 ```
 
 Build debs:
