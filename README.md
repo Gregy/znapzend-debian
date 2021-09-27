@@ -7,6 +7,9 @@ You can download prebuilt package from 'releases' section of this repository. Pl
 Creating ZnapZend Debian packages
 ===============
 
+You can either run the build manually or use a docker based build script
+
+## Manual package creation
 Install required packages:
 ```sh
 apt install git debhelper devscripts unzip build-essential
@@ -28,13 +31,19 @@ Resulting packages are in parent directory
 cd ..
 ```
 
-Build debs with docker:
+
+
+## Scripted package creation
+
+Convinient build script utilizing a docker container is present in the repo. Run it like this:
 
 ```sh
 ./build.sh
 ```
 
-Install:
+Installing ZnapZend Debian packages
+===============
+
 ```sh
 apt install ./znapzend_*.deb
 ```
