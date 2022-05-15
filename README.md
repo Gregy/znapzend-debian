@@ -20,7 +20,7 @@ Build debs:
 ```sh
 git clone https://github.com/Gregy/znapzend-debian.git
 cd znapzend-debian
-git clone -b v0.21.0 https://github.com/oetiker/znapzend
+git clone -b v0.21.1 https://github.com/oetiker/znapzend
 cp -r debian/ znapzend
 cd znapzend
 debuild --no-tgz-check -us -uc
