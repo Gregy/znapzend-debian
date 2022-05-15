@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-znapzend_tag=0.21
+znapzend_tag=0.21.1
 docker_tag=debian
 
 

@@ -1,10 +1,10 @@
 ARG image=debian:latest
-ARG znapzend-tag=v0.21.0
+ARG znapzend-tag=v0.21.1
 
 FROM ${image}
 
 RUN apt-get update && apt-get install -y git devscripts debhelper unzip build-essential
-RUN git clone -b v0.21.0 https://github.com/oetiker/znapzend
+RUN git clone -b v0.21.1 https://github.com/oetiker/znapzend
 
 COPY debian znapzend/debian
 
